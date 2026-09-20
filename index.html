@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Palette - Color Harmony Generator</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,'Segoe UI',Roboto,sans-serif; background:#fafafa; color:#1c1c22; }
+  .hero { text-align:center; padding:90px 20px 50px; }
+  .hero .ic { font-size:58px; }
+  .hero h1 { font-size:48px; letter-spacing:-1.5px; margin:8px 0 12px; }
+  .hero p { color:#777; font-size:17px; max-width:440px; margin:0 auto 28px; }
+  .cta { display:inline-block; background:#1c1c22; color:#fff; text-decoration:none; font-weight:600; padding:14px 32px; border-radius:999px; font-size:15px; }
+  .swatches { display:flex; height:120px; max-width:720px; margin:0 auto 40px; border-radius:18px; overflow:hidden; box-shadow:0 8px 30px rgba(0,0,0,.10); }
+  .swatches div { flex:1; }
+  .feats { max-width:860px; margin:0 auto; padding:0 20px 60px; display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+  .feat { background:#fff; border:1px solid #e8e6e3; border-radius:16px; padding:22px; }
+  .feat h3 { font-size:16px; margin-bottom:8px; }
+  .feat p { color:#777; font-size:14px; line-height:1.5; }
+  footer { text-align:center; color:#bbb; font-size:12px; padding:0 0 30px; }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="ic">&#127912;</div>
+    <h1>Palette</h1>
+    <p>Five harmonious colors in one tap. Lock what you love, shuffle the rest, copy the hex.</p>
+    <a class="cta" href="app.html">Open the generator</a>
+  </div>
+  <div class="swatches">
+    <div style="background:#7C6CF0"></div><div style="background:#4ECDC4"></div>
+    <div style="background:#FF6B6B"></div><div style="background:#FFE66D"></div>
+    <div style="background:#1A535C"></div>
+  </div>
+  <div class="feats">
+    <div class="feat"><h3>Real color theory</h3><p>Analogous, complementary, triadic, and monochromatic harmonies generated from the HSL wheel, not random noise.</p></div>
+    <div class="feat"><h3>Lock and shuffle</h3><p>Keep the colors that work, reshuffle only the ones that don't. Spacebar shuffles too.</p></div>
+    <div class="feat"><h3>Contrast built in</h3><p>Every swatch shows its WCAG contrast ratio on white and black, with AA / AAA badges for accessible design.</p></div>
+  </div>
+  <footer>Built by App Factory &middot; app #21 &middot; palettes are saved on your device</footer>
+</body>
+</html>
